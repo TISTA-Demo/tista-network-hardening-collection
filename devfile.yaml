@@ -1,0 +1,12 @@
+---
+schemaVersion: 2.2.2
+metadata:
+  name: tista_demo.network_hardening-edf52cda
+components:
+  - name: tooling-container
+    container:
+      image: ghcr.io/ansible/ansible-devspaces:latest
+      memoryRequest: 256M
+      memoryLimit: 6Gi
+      cpuRequest: 250m
+      cpuLimit: 2000m

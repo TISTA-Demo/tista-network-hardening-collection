@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tista_demo.network_hardening
+  description: Demo Ansible collection for network device hardening automation, created via the RHDH Ansible plugin for the IATDR combined-capability demo.
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: TISTA-Demo/tista-network-hardening-collection
+spec:
+  type: collection-project
+  system: tista-network-hardening-demo
+  lifecycle: production
+  owner: andrev-tista
