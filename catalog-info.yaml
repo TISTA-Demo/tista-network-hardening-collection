@@ -15,12 +15,3 @@ spec:
   system: tista-network-hardening-demo
   lifecycle: production
   owner: andrev-tista
-
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: tista-network-hardening-demo
-  description: Demo Ansible collection for network device hardening automation
-spec:
-  owner: andrev-tista
