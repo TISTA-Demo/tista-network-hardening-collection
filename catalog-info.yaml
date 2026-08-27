@@ -14,4 +14,4 @@ spec:
   type: collection-project
   system: tista-network-hardening-demo
   lifecycle: production
-  owner: andrev-tista
+  owner: user:default/andrev-tista
